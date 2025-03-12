@@ -1,1 +1,177 @@
 # typesetting
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Merriweather:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  */
+  
+
+  /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+  
+  body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  /* Paragraph Styling */
+  section p:first-of-type {
+    text-indent: 1.25rem;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: underline;
+    color: #a66;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #800;
+  }
+  
+  a:active {
+    color: #500;
+    font-weight: bold;
+  }
+  
+/* Spacing between paragraphs */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Bold titles with spacing */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  /* External link icon */
+  a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('https://raw.githubusercontent.com/nina-mir/CSC317-assignments/refs/heads/main/typesetting/external-link-52.png');
+    background-size: cover;
+    margin-left: 5px;
+  }  
+  
+  /* Lists */
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  li {
+    line-height: 1.6;
+    list-style-type: square;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    box-shadow: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 10px 0;
+    list-style-type: none;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background: white;
+    border: 1px solid #a66;
+    color: #a66;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background: #a66;
+    color: white;
+  }
+
+  
